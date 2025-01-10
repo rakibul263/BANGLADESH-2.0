@@ -1,8 +1,3 @@
-*{
-    margin:0.3rem 2rem 0rem 2rem;
-    font-family: "Poppins", serif;
-}
-
 /* header section -- nav bar */
 
 .nav{
@@ -25,6 +20,7 @@
     background-color: white;
     color: green;
     border-radius: 5px;
+    margin-top: 1rem;
 }
 
 .signin-btn:hover{
@@ -70,4 +66,29 @@
 }
 .banner-section-btn:hover{
     background-color: #004D3F;
+}
+
+/* piller section */
+.piller-section{
+    margin-top: 5rem;
+}
+.piller-section h1{
+    font-size: 2rem;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.container-border-padding{
+    width: 302px;
+    height: 244px;
+    background-color: whitesmoke;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.container-items{
+    padding: 1rem;
+    text-align: justify;
 }
