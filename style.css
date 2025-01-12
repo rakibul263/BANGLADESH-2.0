@@ -400,6 +400,9 @@ tbody td select {
     color: white;
     font-weight: 600;
 }
+.input-donate-section button:hover{
+    background-color: #0d2f29;
+}
 
 /* subscribe section */
 .subscribe-section{
