@@ -267,3 +267,69 @@ tbody td select {
 .table-data-section{
     text-align: right;
 }
+
+/* news section */
+.news-section{
+    margin-top: 5rem;
+}
+.news-section h1{
+    font-size: 40px;
+}
+.news-section p{
+    text-align: justify;
+}
+.news-and-img-section{
+    display: flex;
+    background-color: whitesmoke;
+    height: 18rem;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 2rem;
+}
+.news-and-img-section:hover{
+    background-color: rgba(0, 106, 80, 0.3);
+    color: rgb(69, 13, 13);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+}
+
+.image-for-news img{
+    height: 15rem;
+    width: 20rem;
+    margin: 1.5rem;
+    border-radius: 15px;
+}
+
+.text-for-news{
+    margin: 1.2rem 1.5rem 1.5rem 0;
+}
+
+.text-for-news img{
+    width: 6rem;
+    position: relative;
+    top: -20px;
+}
+.text-for-news p{
+    position: relative;
+    top: -20px;
+}
+.date-time{
+    position: relative;
+    top: -20px;
+    opacity: 0.6;
+}
+.text-for-news button{
+    border: none;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    bottom: 21px;
+    border-radius: 10px;
+    background-color: #006A50;
+    font-weight: bold;
+    color: white;
+}
+.text-for-news button:hover{
+    background-color: #0d2f29;
+}
+#text-for-news-2{
+    margin-left: 1.5rem;
+}
