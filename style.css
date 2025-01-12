@@ -1,5 +1,4 @@
 /* header section -- nav bar */
-
 .nav{
     display: flex;
      /* position: fixed;p */
@@ -92,3 +91,85 @@
     padding: 1rem;
     text-align: justify;
 }
+
+/* vision section */
+.vision-section{
+    margin-top: 5rem;
+}
+.vision-section h1{
+    font-size: 2rem;
+}
+.vision-heading{
+    text-align: justify;
+}
+.vision-border-padding-1{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(84, 144, 245, 0.3);
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+}
+.vision-border-padding-2{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(9, 161, 92, 0.3);
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+}
+.vision-border-padding-3{
+    width: 410px;
+    height: 325px;
+    background-color: rgba(255, 194, 57, 0.3);
+    /* border: 1px solid gray; */
+    border-radius: 10px;
+}
+.vision-items{
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.vision-btn-1 {
+    padding: 10px 16px 10px 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #5490F5;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.vision-btn-1:hover{
+    background-color: #062355;
+}
+.vision-btn-2 {
+    padding: 10px 16px 10px 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #09A15C;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.vision-btn-2:hover{
+    background-color: #043720;
+}
+.vision-btn-3 {
+    padding: 10px 16px 10px 16px;
+    font-weight: 600;
+    color: white;
+    background-color: #FFC239;
+    border-radius: 8px;
+    border: none;
+    margin-left: 1rem;
+    margin-top: 1.5rem;
+}
+
+.vision-btn-3:hover{
+    background-color: #a07104;
+}
+
