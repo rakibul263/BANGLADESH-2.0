@@ -173,3 +173,25 @@
     background-color: #a07104;
 }
 
+.vision-qute{
+    height: 16rem;
+    background-color: whitesmoke;
+    margin-top: 3rem;
+    border-radius: 10px;
+    background-image: url(./assets/quote-bg.png);
+    background-repeat: no-repeat;
+    background-position: left 30px top 30px;
+}
+
+.vision-qute-txt{
+    font-size: 20px;
+    padding: 50px 30px 30px 30px;
+}
+.vision-qute-txt-2{
+    padding-left: 30px;
+    opacity: 0.7;
+}
+.vision-qute h3{
+    font-size: 20px;
+    padding-left: 30px;
+}
