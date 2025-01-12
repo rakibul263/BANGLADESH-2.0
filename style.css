@@ -344,6 +344,9 @@ tbody td select {
 .donate-text-section h1{
     font-size: 40px;
 }
+.donate-text-section p{
+    opacity: 0.6;
+}
 .donate-amount-section{
     display: flex;
     justify-content: space-around;
@@ -394,4 +397,50 @@ tbody td select {
     background-color: #006A50;
     color: white;
     font-weight: 600;
+}
+
+/* subscribe section */
+.subscribe-section{
+    margin-top: 5rem;
+    height: 395px;
+    background-color: #C6E4D6;
+    border: none;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.subscribe-padding h1{
+    font-size: 40px;
+}
+.subscription-box {
+    display: flex;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.subscription-box input[type="email"] {
+    border: none;
+    padding: 15px;
+    flex: 1;
+    font-size: 16px;
+    outline: none;
+}
+.subscription-box button {
+    background-color: #346b5e;
+    color: #ffffff;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.subscription-box button:hover {
+    background-color: #285446;
+}
+.subscribe-padding p{
+    opacity: 0.6;
 }
